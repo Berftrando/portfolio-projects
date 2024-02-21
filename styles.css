@@ -1,0 +1,287 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.log{
+    width: auto;
+    height: 9vh;
+    border-radius: 50%;
+}
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid white;
+    color: #fff;
+}
+.heading1{
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 2rem;
+    padding:2rem 2rem;
+    border-bottom: .2rem solid black;
+    color: rgb(0, 0, 0);
+}
+.heading2{
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 2rem;
+    padding: 2rem 2rem;
+    border-bottom: .1rem solid black;
+    color: rgb(102, 89, 89);
+}
+section{
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+.home{
+    background: rgb(0,0,0,0.5) url("/images/Shelby GT500 First Drive - Most Powerful Street-Legal Ford Ever.jfif") fixed;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.explore{
+   background-color: #fff;
+}
+.services{
+   background-color: rgba(224, 241, 248, 0.6);
+}
+.contact{
+   background:rgb(0,0,0,0.6) url("/images/storage car ideas shop car sketch draw design car drawing design car maintenance car things car inte.jfif");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-blend-mode: darken;
+}
+#exp{
+    width:auto;
+    height: 36vh;
+}   
+.serve{
+    width: auto;
+    height: 48vh;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 1rem 1rem ;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    display: inline-block;
+}
+.img{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 2rem 1rem ;
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.2);
+    
+}
+
+a{
+    color: black;
+
+}
+
+.nav-links{
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+
+}
+.nav-links a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    padding: 8px;
+}
+.nav-links a:hover{
+    border-bottom: 3px solid rgb(93, 93, 227);
+}
+.content{
+    margin-top: 140px;
+    margin-left: 30%;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;   
+}
+.search{
+    background: #fff;
+    width: fit-content;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    background-color: transparent;
+    width: 500px;
+    border: 0;
+   outline: none;
+}
+.sea{
+    padding: 10px 35px;
+    margin-left: 35%;
+    background-color: rgb(136, 196, 220);
+    cursor: pointer;
+    box-shadow: 2px 2px 3px white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.btn{
+    padding: 13px 38px;
+    margin-right: 45%;
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+.sea:hover{
+    background-color: white;
+    color: black;
+    padding: 11px 36px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    padding: 14px 40px;
+}
+
+.form{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 18%;
+    left: 65%;
+    background: transparent;
+}
+.form ::placeholder{
+    color: #fff;
+}
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 21px;
+    padding: 13px 18px;
+    background: transparent;
+    border-bottom: 1px solid yellow;
+}
+.link{
+    width: 75%;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 11px;
+    border-radius: 7px;
+}
+.link a{
+    text-decoration: none;
+    color: #000;   
+}
+.link1{
+    text-align: center;
+    margin-top: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 15px;
+}
+.link2{
+    width: 50%;
+    margin: 32%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+@keyframes example{
+    0%{color:lime}
+    25%{color:yellow;}
+    50%{color: forestgreen;}
+    75%{color:aqua;}
+    100%{color:pink}
+}
+#text{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+.contact .row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex:1 1 30rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+.contact .row form{
+    flex:1 1 45rem;
+    padding: 1rem;
+    margin:2rem;
+    margin-bottom: 2rem; 
+}
+.contact .row form .box{
+    padding:1rem;
+    margin:2rem 0;
+    background: #fff;
+    color: black;
+    text-transform: none;
+    font-size: 1rem;
+    width: 50%;
+}
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+
+}
+.contact .row form .message{
+    height: 10rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.contact .row .content .info h3{
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: bold;
+}
